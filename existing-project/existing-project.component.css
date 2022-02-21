@@ -1,0 +1,23 @@
+.well {
+    background: rgb(215, 230, 236);
+    height: 550px;
+    width: fixed;
+}
+
+.table-scroll tbody {
+    position: fixed;
+    overflow-y: scroll;
+    height: 500px;
+    width: 100%;
+
+}
+
+.table-scroll tr {
+    width: 100%;
+    table-layout: fixed;
+    display: inline-table;
+}
+
+.table-scroll thead > tr > th {
+    border: none;
+}
